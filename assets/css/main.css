@@ -3228,6 +3228,7 @@ input, select, textarea {
 
 	@media screen and (max-width: 480px) {
 
+
 		/* Section/Article */
 
 			header.major {
@@ -3303,9 +3304,12 @@ input, select, textarea {
 
 	.fpalogo {
 
-		width: 400px;
-    @media only screen and (max-width: 600px) {
+		width: 400px;  
+}
+
+ @media screen and  (max-width: 600px) {
+    	
+.fpalogo{
     	width: 200px;
     }
-
-	}
+    	}
